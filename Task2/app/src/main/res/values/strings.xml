@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Task 2</string>
+    <string name="hello_world">HELLO WORLD!</string>
+    <string name="click">Continue</string>
+    <string name="goodbye_world">GOODBYE WORLD!</string>
+</resources>
