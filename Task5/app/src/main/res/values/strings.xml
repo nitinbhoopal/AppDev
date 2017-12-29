@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Task 5</string>
+    <string name="start_quiz">START QUIZ</string>
+    <string name="q1_in_which_year_of_the_first_world_war_germany_declared_war_on_russia_and_france">Q1. In which year of the First World War Germany declared war on Russia and France?</string>
+    <string name="finish">FINISH</string>
+    <string name="b_1915">B)1915</string>
+    <string name="c_1916">C)1916</string>
+    <string name="d_1917">D)1917</string>
+    <string name="a_1914">A)1914</string>
+    <string name="q2_what_frequency_range_is_the_high_frequency_band">Q2. What frequency range is the High Frequency band?</string>
+    <string name="a_100_khz">A)100 KHz</string>
+    <string name="b_1_ghz">B)1 GHZ</string>
+    <string name="c_30_300_mhz">C) 30-300 MHz</string>
+    <string name="d_3_30_mhz">D)3-30 MHz</string>
+    <string name="q3_where_was_the_yo_yo_invented">Q3. Where was the yo-yo invented?</string>
+    <string name="a_france">A) France</string>
+    <string name="b_united_states">B)United States</string>
+    <string name="c_england">C) England</string>
+    <string name="d_philippines">D) Philippines</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="nitinbhoopal.com.task5.Question1Activity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="29dp"
+        android:textColor="#66FCF1"
+        android:text="@string/q2_what_frequency_range_is_the_high_frequency_band"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginStart="23dp"
+        android:onClick="wrongAnswer"
+        android:backgroundTint="#1F2833"
+        android:textColor="#66FCF1"
+        android:text="@string/a_100_khz"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#1F2833"
+        android:textColor="#66FCF1"
+        android:layout_marginBottom="66dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="wrongAnswer"
+        android:text="@string/b_1_ghz"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#1F2833"
+        android:textColor="#66FCF1"
+        android:layout_marginEnd="75dp"
+        android:layout_marginStart="23dp"
+        android:onClick="wrongAnswer"
+        android:text="@string/c_30_300_mhz"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#1F2833"
+        android:textColor="#66FCF1"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="rightAnswer"
+        android:text="@string/d_3_30_mhz"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonWrong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/buttonWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="1dp"
+        android:onClick="endQuiz"
+        android:backgroundTint="#1F2833"
+        android:textColor="#66FCF1"
+        android:text="@string/finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+</android.support.constraint.ConstraintLayout>
