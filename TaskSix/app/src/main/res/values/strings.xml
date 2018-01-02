@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task Six</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image">image</string>
+    <string name="Continue">CONTINUE</string>
+
+</resources>
